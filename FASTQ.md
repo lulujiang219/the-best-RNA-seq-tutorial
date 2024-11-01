@@ -5,7 +5,9 @@ It includes raw sequence reads and per-base quality scores.
 ![FASTA and FASTQ](picture/FASTQ.png)
 
 
-##### **FASTQ sequences files typically:**
+
+
+### **FASTQ sequences files typically:**
 
 - are compressed (e.g., with ```gzip```). The file extension is typically ```.fastq.gz``` or ```.fq.gz```
 - are very large (e.g., 10s of GBs or more) because they contain raw sequence reads. To obtain a new genome assembly, we want to sequence that individual at least 30 times. Similarly, to estimate gene expression amplitudes, we may want 30,000,000 pairs of 150-nucleotide reads per sample. In both cases, there is a lot of redundancy that downstream processing will remove.
