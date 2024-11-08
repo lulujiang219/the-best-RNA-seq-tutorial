@@ -82,6 +82,9 @@
     A volcano plot can then show the differentially expressed genes, highlighting those with the greatest fold change and significance.
 
 
+# Source:
+https://diytranscriptomics.com/project/lecture-pre
+
 
 
 
